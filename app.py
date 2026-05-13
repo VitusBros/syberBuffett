@@ -13,6 +13,9 @@ except ImportError:
     pass
 # -------------------------------------------------------
 
+from dotenv import load_dotenv
+load_dotenv()
+
 import os
 import gradio as gr
 from engine.skill_executor import SkillExecutor

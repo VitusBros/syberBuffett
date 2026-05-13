@@ -8,6 +8,10 @@ from engine.skill_loader import SkillLoader
 from engine.domain_plugin import DefaultPlugin, DomainPlugin
 
 # Lazy imports
+from engine.rag_retriever import RAGRetriever
+from engine.memory_manager import MemoryManager
+from engine.llm_client import SenseNovaLLM
+
 _rag_retriever_cls = None
 _memory_manager_cls = None
 
@@ -38,7 +42,14 @@ class SkillExecutor:
     
     def __init__(self, base_dir: str, llm_client=None):
         self.loader = SkillLoader(base_dir)
-        self.llm = llm_client or MockLLM()
+        if llm_client:
+            self.llm = llm_client
+        elif os.getenv("SENSENOVA_API_KEY"):
+            self.llm = SenseNovaLLM()
+            print("✅ Initialized SenseNova LLM")
+        else:
+            self.llm = MockLLM()
+            print("⚠️ SENSENOVA_API_KEY not set, using Mock LLM")
 
     def _instantiate_plugin(self, role_name: str, data: dict) -> DomainPlugin:
         """Factory method: Try to load specific plugin, fallback to DefaultPlugin."""
