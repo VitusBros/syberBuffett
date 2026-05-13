@@ -1,0 +1,11 @@
+#,Question,Expected Source,Rank Hit,Hit@1,Hit@3
+1,What is float in insurance?,buffett_wisdom_compilation.txt or 1992_letter.txt,1,✅,✅
+2,Why did Buffett invest heavily in Coca-Cola?,buffett_wisdom_compilation.txt,1,✅,✅
+3,What is Buffett's circle of competence?,buffett_wisdom_compilation.txt,1,✅,✅
+4,What is an economic moat?,buffett_wisdom_compilation.txt,1,✅,✅
+5,What was Buffett's response to the 2008 financial crisis?,missing_years_highlights.txt,1,✅,✅
+6,Why did Buffett invest in Apple?,missing_years_highlights.txt,1,✅,✅
+7,What is Buffett's advice for ordinary investors?,buffett_wisdom_compilation.txt,1,✅,✅
+8,Why did Berkshire's textile business fail?,1977_letter.txt or 1978_letter.txt,1,✅,✅
+9,What makes a good manager according to Buffett?,buffett_wisdom_compilation.txt,1,✅,✅
+10,How does Buffett view inflation?,buffett_wisdom_compilation.txt,1,✅,✅

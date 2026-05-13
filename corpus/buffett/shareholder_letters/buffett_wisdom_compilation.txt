@@ -1,0 +1,121 @@
+# Warren Buffett Investment Wisdom - Selected Passages
+# Compiled from shareholder letters, interviews, and public speeches (1977-2024)
+# This file serves as a curated corpus for RAG testing.
+
+## On Circle of Competence (1990s-2000s)
+
+You don't have to be an expert on every company, or even many. You only have to be able to evaluate companies within your circle of competence. The size of that circle is not very important; knowing its boundaries, however, is vital.
+
+Over the years, we have learned to say "no" to many opportunities that fell outside our understanding. This discipline has saved us from costly mistakes. When we encounter businesses we don't understand, we put them in the "too hard" pile and move on.
+
+## On Moats and Competitive Advantage (1990s)
+
+The key to investing is not assessing how much an industry is going to affect society, or how much it will grow, but rather determining the competitive advantage of any given company and, above all, the durability of that advantage.
+
+Look for businesses with wide and lasting moats. The moat can take many forms: a low-cost production advantage, a powerful brand, network effects, or high switching costs. The wider and more durable the moat, the better the long-term economics of the business.
+
+A wonderful business is one that can raise prices without losing customers to competitors. That's the test of a true moat.
+
+## On Coca-Cola Investment (1988-1998)
+
+In 1988, we began buying Coca-Cola stock. We eventually invested $1 billion, which at the time was the largest single investment Berkshire had ever made.
+
+What attracted us to Coca-Cola? First, it's a business we understand. Second, it has a powerful global brand with unparalleled distribution. Third, it requires relatively little capital to grow. Fourth, it generates enormous returns on invested capital.
+
+Coca-Cola's product is simple, yet its brand is one of the most valuable in the world. The company's distribution network reaches every corner of the globe. And most importantly, Coca-Cola's product brings pleasure to people's daily lives.
+
+By 1998, our $1 billion investment was worth $13 billion. But the real reward has been the annual dividend income, which has grown from $40 million per year to over $700 million per year. That's the magic of owning a wonderful business.
+
+## On Apple Investment (2016-2020)
+
+Apple is a remarkable business. When we first started buying in 2016, many people were surprised that Berkshire invested in a technology company. But Apple is really a consumer products company with an incredibly loyal customer base.
+
+The iPhone has become indispensable to its users. People simply cannot imagine their lives without it. That kind of customer loyalty is extraordinarily rare and represents a very wide moat.
+
+We have come to think of Apple as our third business, alongside our insurance operations and BHE (Berkshire Hathaway Energy). It's a business run by an outstanding CEO in Tim Cook, and it generates enormous amounts of cash.
+
+## On Market Crashes and Volatility (1987, 2000, 2008)
+
+During the 1987 stock market crash, when the Dow declined 22% in a single day, I was reading and thinking. Nothing about the economics of our businesses had changed, so why should the value of our stocks change?
+
+In 2000, during the dot-com bubble, we refused to invest in companies with no earnings and no visible path to profitability. Many people called us dinosaurs. But when the bubble burst, our patience was rewarded.
+
+During the 2008 financial crisis, while everyone was panicking, we were making some of our best investments. We invested $5 billion in Goldman Sachs and $3 billion in General Electric, receiving preferred shares with 10% dividends plus warrants. These investments generated billions in profits for Berkshire.
+
+Be fearful when others are greedy and greedy when others are fearful. This is not just a catchy phrase; it's the essence of value investing.
+
+## On Management Quality (Various Years)
+
+When we look for businesses to buy, we look for three things: an ability to earn good returns on equity, the quality of management, and purchase price.
+
+We want managers who love the business, not the money. We want people who think like owners, because they are owners. At Berkshire, we don't tell our managers how to run their businesses. We hire great people and get out of their way.
+
+The best managers are those who treat the business as if it were their family's only asset. They are careful with costs, honest in their dealings, and passionate about their products and customers.
+
+## On Capital Allocation (1980s-2000s)
+
+The CEO of any large public company has three principal jobs: allocate capital, select and develop key managers, and set the tone for the corporate culture. The most important of these is capital allocation.
+
+When a business generates more cash than it can productively reinvest, the CEO faces a choice: pay dividends, buy back shares, make acquisitions, or hoard cash. The right choice depends on the circumstances, but the wrong choice can destroy enormous value.
+
+We believe share buybacks make sense when the stock is selling below intrinsic value. When we buy back Berkshire shares at a discount, we are increasing every remaining shareholder's ownership in a collection of wonderful businesses. It's the most direct way to create value.
+
+## On Insurance and Float (1967-Present)
+
+Insurance has been the engine that has powered Berkshire's growth. The key concept is "float" - money that we hold but don't own. Insurance companies collect premiums upfront and pay claims later. In the meantime, they can invest the float.
+
+Berkshire's insurance float has grown from $20 million in 1967 to over $150 billion today. And in many years, we have actually been paid to hold this float through underwriting profits. That's the magic of the insurance business.
+
+The combination of float and our ability to invest it wisely has been the secret to Berkshire's extraordinary returns. It is a business model that is difficult to replicate and nearly impossible to duplicate at our scale.
+
+## On Simplicity and Patience (Various Years)
+
+The stock market is a device for transferring money from the impatient to the patient. Our favorite holding period is forever.
+
+We don't need to swing at every pitch. In investing, you don't get called out on strikes. You can stand at the plate with the pitcher throwing you balls and strikes - nothing is said - and you can wait for the pitch in your sweet spot.
+
+The big money is not in the buying and selling, but in the waiting. Patience is not just a virtue in investing; it is the essential quality.
+
+## On Economic Moats in Practice (1990s-2010s)
+
+See's Candies has been one of our best investments. We bought it in 1972 for $25 million, and it has since generated over $2 billion in pre-tax earnings. The reason? See's has pricing power in California. People will pay more for See's candy at Christmas because of the brand and the experience. That pricing power is a moat.
+
+Similarly, BNSF Railway has an enormous competitive advantage. You cannot build a new railroad across the United States today. The rights-of-way, the permits, the environmental approvals - it simply cannot be done. BNSF owns an irreplaceable network that is critical to the American economy.
+
+## On Mistakes and Learning (Various Years)
+
+I have made many mistakes in my career. The most costly have been mistakes of omission - opportunities I saw but didn't act on. I should have bought more Walmart when I had the chance. I should have invested in Amazon earlier.
+
+But my biggest mistake was buying Berkshire Hathaway itself - the textile business. It was a terrible business with terrible economics. I kept pouring money into it for years, hoping things would improve. They never did. The lesson: it's far better to buy a wonderful company at a fair price than a fair company at a wonderful price.
+
+I also made mistakes in the airline industry, investing in US Airways in the 1990s. Airlines are a terrible business with structural overcapacity and fierce price competition. I eventually learned my lesson, though I did come back to airlines much later with different economics.
+
+## On Inflation and Currency (1980s-2020s)
+
+Inflation is a tax on holding cash and fixed-income securities. The best protection against inflation is to own businesses that can raise their prices without losing customers.
+
+During high inflation periods, businesses that require large amounts of capital just to maintain their position suffer the most. Conversely, businesses with low capital requirements and strong pricing power thrive.
+
+The dollar's purchasing power has declined dramatically over my lifetime. In 1930, a dollar bought much more than it does today. This is why owning productive assets - businesses, farms, real estate - is essential for long-term wealth preservation.
+
+## On Index Funds and the Average Investor (2000s-2020s)
+
+For the vast majority of investors, the best course of action is to own a low-cost S&P 500 index fund. I have instructed the trustee of my estate to put 90% of the cash into an S&P 500 index fund and 10% into short-term government bonds.
+
+Most active managers cannot beat the index after fees. The math is simple: the market as a whole earns the market return, but active managers charge fees that reduce their net returns. Over time, the gap between index returns and active manager returns widens dramatically.
+
+If you can't identify businesses that you understand well enough to invest in, index funds are your best friend. They provide instant diversification at minimal cost.
+
+## On the 2008 Financial Crisis and Recovery (2008-2012)
+
+In October 2008, when the financial system was on the brink of collapse, I wrote an op-ed in the New York Times titled "Buy American. I Am." I explained that I had been buying American stocks with my personal account, not because I thought the market couldn't go lower, but because I knew that America's best companies would eventually recover.
+
+We made several large investments during this period. Our investments in Goldman Sachs, General Electric, and Bank of America generated enormous returns for Berkshire. These investments were possible because we had the cash available and the courage to act when others were paralyzed by fear.
+
+## On Technology and Change (2010s-2020s)
+
+I have always been cautious about technology investments because I don't claim to understand the long-term economics of most tech companies. But Apple was different. It had the characteristics of a consumer products company: strong brand loyalty, ecosystem lock-in, and pricing power.
+
+That said, I have missed enormous opportunities by staying away from technology. Google, Amazon, and Microsoft have created more value than almost any companies in history. My failure to invest in them earlier reflects the boundaries of my circle of competence.
+
+The lesson is that your circle of competence can expand over time, but you must be honest about where it currently stands.

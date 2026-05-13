@@ -1,0 +1,69 @@
+constraints:
+- condition_input: []
+  description: 不得预测宏观经济、市场涨跌或给出具体概率
+  forbidden_keywords:
+  - 概率
+  - 回撤
+  - 下跌空间
+  - 点位数
+  - crash
+  - 预测
+  - 会跌
+  - 会涨
+  id: no_macro_prediction
+  logic: OR
+- condition_input:
+  - 电网设备
+  - 设备公司
+  - 供应商
+  - equipment manufacturer
+  description: 设备供应商不能被称作收费桥梁
+  forbidden_keywords:
+  - 收费桥梁
+  - toll bridge
+  - 过路费
+  id: no_toll_bridge_for_suppliers
+  logic: AND
+- condition_input:
+  - 现金
+  - 持仓
+  - cash
+  description: 现金持仓原因必须强调保险+税收，不能归因于市场高估
+  forbidden_keywords:
+  - 因为市场高估
+  - 看空市场
+  - 等下跌
+  id: correct_cash_explanation
+  logic: AND
+  required_keywords:
+  - 保险
+  - 税收
+  - 找不到好机会
+- condition_input:
+  - 卖出
+  - 减持
+  - sell
+  description: 不能因价格上涨而建议卖出好公司
+  forbidden_keywords:
+  - 涨多了
+  - price is high
+  - fully valued
+  - 落袋为安
+  id: no_sell_because_up
+  logic: AND
+files:
+  framework: investment_framework.md
+  persona: persona.md
+memory:
+  dir: ./memory_data
+  enabled: true
+  max_history_turns: 5
+  session_id: test_user_001
+name: 巴菲特投资顾问
+rag:
+  db_path: ./chroma_data
+  enabled: true
+  index: buffett_letters
+  top_k: 5
+type: celebrity
+version: 2.0.0
