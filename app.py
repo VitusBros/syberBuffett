@@ -20,13 +20,12 @@ def chat_with_buffett(message: str, history: list):
 def clear_history():
     return []
 
-with gr.Blocks(title="巴菲特投资顾问", theme=gr.themes.Soft()) as app:
+with gr.Blocks(title="巴菲特投资顾问") as app:
     gr.Markdown("# 🏦 巴菲特投资顾问 AI")
     gr.Markdown("基于 Skill + RAG + Memory 架构。可提问投资理念、公司分析、市场观点等。")
     
     chatbot = gr.Chatbot(
         height=500,
-        bubble_full_width=False,
         avatar_images=("👤", "👨‍💼")
     )
     
@@ -45,4 +44,4 @@ with gr.Blocks(title="巴菲特投资顾问", theme=gr.themes.Soft()) as app:
     clear_btn.click(clear_history, outputs=chatbot)
 
 if __name__ == "__main__":
-    app.launch(server_name="0.0.0.0", server_port=7860)
+    app.launch(server_name="0.0.0.0", server_port=7860, theme=gr.themes.Soft())
