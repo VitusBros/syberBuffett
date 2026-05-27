@@ -11,6 +11,7 @@ from engine.domain_plugin import DefaultPlugin, DomainPlugin
 from engine.rag_retriever import RAGRetriever
 from engine.memory_manager import MemoryManager
 from engine.llm_client import SenseNovaLLM
+from engine.zilliz_retriever import ZillizRetriever
 
 _rag_retriever_cls = None
 _memory_manager_cls = None
@@ -103,12 +104,27 @@ class SkillExecutor:
         rag_config = data['config'].get('rag', {})
         if rag_config.get('enabled'):
             print(f"🔍 RAG enabled, retrieving context for: {user_input[:30]}...")
-            RAGRetriever = _get_rag_retriever_class()
-            retriever = RAGRetriever(
-                db_path=rag_config.get('db_path', './chroma_data'),
-                collection_name=rag_config.get('index', 'default')
-            )
-            rag_context = retriever.retrieve(user_input, top_k=rag_config.get('top_k', 3))
+            
+            # 自动检测 Zilliz Cloud 凭据
+            use_zilliz = os.getenv("ZILLIZ_ENDPOINT") and os.getenv("ZILLIZ_API_KEY")
+            
+            if use_zilliz:
+                print("☁️ Using Zilliz Cloud for retrieval")
+                retriever = ZillizRetriever(
+                    collection_name=rag_config.get('index', 'default'),
+                    endpoint=os.getenv("ZILLIZ_ENDPOINT"),
+                    token=os.getenv("ZILLIZ_API_KEY")
+                )
+                rag_context = retriever.retrieve(user_input, top_k=rag_config.get('top_k', 5))
+            else:
+                print("💻 Using local ChromaDB for retrieval")
+                RAGRetriever = _get_rag_retriever_class()
+                retriever = RAGRetriever(
+                    db_path=rag_config.get('db_path', './chroma_data'),
+                    collection_name=rag_config.get('index', 'default')
+                )
+                rag_context = retriever.retrieve(user_input, top_k=rag_config.get('top_k', 3))
+                
             if rag_context:
                 print(f"📄 Retrieved {len(rag_context)} chars of context")
         
